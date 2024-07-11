@@ -1,0 +1,26 @@
+name: asig_3
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.8
+  firebase_core: ^2.1.0
+  firebase_auth: ^4.1.0
+  cloud_firestore: ^4.4.0
+  connectivity_plus: ^2.2.0
+  battery_plus: ^3.0.0
+  fluttertoast: ^8.0.9
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
